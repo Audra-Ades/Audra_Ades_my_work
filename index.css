@@ -60,7 +60,6 @@ ul{
     color:black;
     margin-bottom: 50px;
     margin-top: 50px;
-    padding:30px;
 }
 footer a:hover{
     color:red;
@@ -93,6 +92,9 @@ align-items: center;
     font-family: Old London alternate;
     margin:auto;
 }
+
+ 
+
 .skillp{
     font-size: 20px;
     display: flex;
@@ -101,18 +103,10 @@ align-items: center;
     width:90%;
     margin:20px;
 }
-.skill2{
-    font-size: 30px;
-    display: flex;
-    float: left;
-    font-family: old london alternate;
-    margin:auto;
-    align-content: right;
-    text-align: right;
-    justify-self: right;
-    padding: 40px;
 
-}
+
+
+
 .skillp2{
     font-size: 20px;
     display: flex;
