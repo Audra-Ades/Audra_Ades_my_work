@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html> 
+    
+<head> 
+  <link href="index.css" type="text/css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Jacquard+24&family=Jacquarda+Bastarda+9&display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/brandford" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/kg-let-her-go" rel="stylesheet">
+<style>
+  @import url('https://fonts.cdnfonts.com/css/brandford');
+</style>
+<style>
+  @import url('https://fonts.cdnfonts.com/css/kg-let-her-go');
+  </style>                
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./css/style.css">
+      <title>Popup Image Slider</title>
+</head>
+<body style="background-image: url(./images/stripe3.png);border:black solid 5px; margin:50px ;background-size: 5in 40in;">
+<h1 class="name">
+   <div style="text-align: center;" >
+  <img width= 80%; 
+  src="images/name.png">
+</h1>
+
+<ul>
+    <a class="link2" href="https://audra-ades.github.io/Audra_Ades_Home/">Home</a>
+    <a class="skills">Skills</a>
+    <a class="link2" href="https://audra-ades.github.io/Ux-Ui-hw18-mywork/">Projects</a>
+  <a class="popup" onclick="myFunction()"> Contact
+      <span class="popuptext" id="myPopup">
+        <div class= "email" id="sample">
+        Email: Audraades@gmail.com
+      </div>
+      <br />
+       
+      <button class="copy" onclick="copyText()">Copy</button>
+      <br />
+       
+       
+      <script>
+          function copyText() {
+        
+            
+              navigator.clipboard.writeText
+                  ("Audraades@gmail.com");
+          }
+      </script>
+      <div class="phone" id="sample">
+        Phone: (760)987-0681
+      </div>
+      <br />
+       
+      <button class="copy" onclick="copyText()">Copy</button>
+      <br />
+       
+       
+      <script>
+          function copyText() {
+       
+            
+              navigator.clipboard.writeText
+                  ("(760)987-0681");
+          }
+      </script>
+      
+     
+      </span> 
+      
+    </a>
+  </ul>
+
+ 
+  <script>
+    // When the user clicks on <div>, open the popup
+    function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+    </script>
+
+
+  <h2 class= "grid-container"; style="background-color: antiquewhite  ;border: black solid 5px; margin: 100px;">
+      <p class="Extra">
+      The Scoop!</p>
+
+        
+      <div class="me">Checkout her latest projects!
+      </div>
+      <div style="text-align: center;" >
+        <img width= 40%; 
+        src="images/Layer10.png">
+      </div>
+
+     
+      <h1 class="blurb" style="border: white solid 5px; background-color: antiquewhite;">  <img width= 60%; 
+        src="images/victory_logo.png">
+       
+     
+        </div>
+        <div style="text-align: center;">
+         
+          <div class="row"><img  src="./images/handpointleft.gif"; width="18%"; class="point1" >
+            <div class="container">
+              <div class="image-container">
+                <button class="PEY" data-modal="true" data-gallery="Food" aria-label="Open Food image gallery">Pineapple express Yourself
+                </button>
+              </div>
+            </div>
+           
+            <script type="module">
+              import initGallery from "./js/galleryApp.js";
+              initGallery('./data/galleries.json', {
+                speed: 600,
+              })
+            </script>
+          
+        <img src="./images/handpointright.gif"; width="18%"; class="point1">
+     </div>
+     <p class="skillp2"> Can label, Can mockup, Tapsticker, Poster, Marketing tools, Social media assets, Original art  </p>
+     <div class="row"><img  src="./images/handpointleft.gif"; width="18%"; class="point1" >
+      <div class="container">
+        <div class="image-container">
+          <button class="PEY" data-modal="true" data-gallery="Cran" aria-label="Open Cran image gallery">Cranberry Gose
+        </div>
+      </div>
+     
+      <script type="module">
+        import initGallery from "./js/galleryApp.js";
+        initGallery('./data/galleries.json', {
+          speed: 600,
+        })
+      </script>
+    
+  <img src="./images/handpointright.gif"; width="18%"; class="point1">
+</div>
+<p class="skillp2"> Tapsticker, Table tent, Marketing tools, Social media assets </p>
+
+<div class="row"><img  src="./images/handpointleft.gif"; width="18%"; class="point1" >
+  <div class="container">
+    <div class="image-container">
+      <button class="PEY" data-modal="true" data-gallery="Food" aria-label="Open Food image gallery">Hullabalooberry
+      </button>
+    </div>
+  </div>
+ 
+  <script type="module">
+    import initGallery from "./js/galleryApp.js";
+    initGallery('./data/galleries.json', {
+      speed: 600,
+    })
+  </script>
+
+<img src="./images/handpointright.gif"; width="18%"; class="point1">
+</div>
+<p class="skillp2"> Tapsticker, Poster, Marketing tools, Social media assets, Original Art </p>
+
+<div class="row"><img  src="./images/handpointleft.gif"; width="18%"; class="point1" >
+  <div class="container">
+    <div class="image-container">
+      <button class="PEY" data-modal="true" data-gallery="Food" aria-label="Open Food image gallery">Pineapple express Yourself
+      </button>
+    </div>
+    
+  </div>
+ 
+  <script type="module">
+    import initGallery from "./js/galleryApp.js";
+    initGallery('./data/galleries.json', {
+      speed: 600,
+    })
+  </script>
+
+<img src="./images/handpointright.gif"; width="18%"; class="point1">
+</div>
+<p class="skillp2"> Can label, Can mockup, Tapsticker, Poster, Marketing tools, Social media assets </p>
+        </div>
+      
+     </h1>
+
+     <h1 class="blurb" style="border: white solid 5px; background-color: antiquewhite;"> UX/UI skillset:
+      <a class="icon1"> <img width= 15% style="float: right;" 
+        src="images/stamp2.png"></a>
+   
+        <p class="skillp2"> 
+          Figma,
+          Miro,
+          Persona Creation,
+          User Interviews Planning,
+          User Interviews,
+          User Research,
+          Usability Testing,
+          User Observation,
+          A/B Testing,
+          Affinity Diagrams,
+          Card Sorting,
+          Survey Creation,
+          Accessible Design,
+          Information architecture and sitemapping Interaction Design,
+          Wireframes and page layout,
+          Mockups,
+          Prototyping,
+          Scenario Design,
+          Storyboarding,
+          and UI Design </p>
+    
+   </h1>
+    
+   <h1 class="blurb" style="border: white solid 5px; background-color: antiquewhite;"> Creative skillset:
+    <a class="icon1"> <img width= 15% style="float: right;" 
+      src="images/stamp1.png"></a>
+ 
+      <p class="skillp2">  
+        Coding,
+        Procreate,
+        Lightroom,
+        Photography,
+        Glass Blowing,
+        Drawing,
+        Painting,
+        Color Theory,
+        Creativity,
+        Icon Design,
+        Illustrations,Glass blowing,
+        
+        
+        Typography </p>
+  
+ </h1>
+    </div>
+    <div style="text-align: center;">
+     
+      <div class="row"><img  src="./images/handpointleft.gif"; width="30%"; class="point1" ><button class="styled" type="button" ><a class="link" href="AudraResume .docx.pdf" download="AudraResume";>Download Resume</a></button>
+   
+    <img src="./images/handpointright.gif"; width="30%"; class="point1">
+ </div>
+    
+    </div>
+     </h2>
+     
+
+
+</div>
+<div>
+  <img src="url" alt="">
+
+</div>
+
+
+
+    
+  
+ 
+
+ 
+
+
+
+
+
+
+</section>
+</h1>
+
+
+
+
+   
+
+    </div>
+</body>
+
+
+<footer>
+<div class= "mycontainer">
+  <ul  >
+    <a class="link2" href="https://audra-ades.github.io/Audra_Ades_Home/">Home</a>
+    <a class="skills">Skills</a>
+    <a class="link3" href="https://audra-ades.github.io/Ux-Ui-hw18-mywork/">Projects</a>
+    <a class="contact" href="mailto:audraades@gmail.com">Contact</a>
+  </ul>
+</div>
+
+
+  <div class="socials" style="background-image: url(./images/bar.png);">
+    <a class="icon1"> <img width= 20%; 
+      src="images/insta.png"></a>
+    <a class="icon2" href="https://www.linkedin.com/in/audra-ades-418436282/"> <img width= 15%; 
+          src="images/linked.png"></a>
+   <a class="icon3" href="mailto:audraades@gmail.com"> <img width= 20%; 
+            src="images/mail.png"></a>
+  </div>
+</footer>
+
+</html>
