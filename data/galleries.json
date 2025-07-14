@@ -246,7 +246,7 @@
       ]
     },
     {
-      "name" : "Infernal",
+      "name" : "infernal",
       "images" : [
           {
             "src": "./images/infernal/is4.png",
