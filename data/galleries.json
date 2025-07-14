@@ -132,6 +132,23 @@
       ]
     },
     {
+      "name" : "BW",
+      "images" : [
+          {
+            "src": "./images/Brandy/BW1.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/Brandy/BW2.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/Brandy/bw3.png",
+            "alt": "house plant"
+          }
+      ]
+    },
+    {
       "name" : "nadia",
       "images" : [
           {
