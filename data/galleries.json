@@ -206,6 +206,29 @@
       ]
     },
     {
+      "name" : "web",
+      "images" : [
+          {
+            "src": "./images/web/web1.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/web/web2.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/web/web3.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/web/web4.",
+            "alt": "house plant"
+          }
+          
+          
+      ]
+    },
+    {
       "name" : "nadia",
       "images" : [
           {
@@ -221,6 +244,100 @@
             "alt": "house plant"
           }
       ]
+    },
+    {
+      "name" : "Infernal",
+      "images" : [
+          {
+            "src": "./images/infernal/is4.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/infernal/is3.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/infernal/is1.png",
+            "alt": "house plant"
+          }
+      ]
+    },
+    {
+      "name" : "roger",
+      "images" : [
+          {
+            "src": "./images/roger/roger4.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/roger/roger3.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/roger/roger2.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/roger/roger1.png",
+            "alt": "house plant"
+          }
+      ]
+    },    
+    {
+      "name" : "roger",
+      "images" : [
+          {
+            "src": "./images/roger/roger4.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/roger/roger3.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/roger/roger2.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/roger/roger1.png",
+            "alt": "house plant"
+          }
+      ]
+    },
+    {
+      "name" : "frost",
+      "images" : [
+          
+          {
+            "src": "./images/frost/ff1.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/frost/ff2.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/frost/ff3.png",
+            "alt": "house plant"
+          }
+      ]
+    },
+    {
+      "name" : "tee",
+      "images" : [
+          
+          {
+            "src": "./images/tee/tee1.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/tee/tee2.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/tee/tee3.png",
+            "alt": "house plant"
+          }
+      ]
     }
-    
   ]
