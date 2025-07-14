@@ -118,15 +118,15 @@
       "name" : "MS",
       "images" : [
           {
-            "src": "./images/MS/MS1.png",
+            "src": "./images/MS/ms1.png",
             "alt": "house plant"
           },
           {
-            "src": "./images/MS/MS2.png",
+            "src": "./images/MS/ms2.png",
             "alt": "house plant"
           },
           {
-            "src": "./images/MS/MS3.png",
+            "src": "./images/MS/Ms3.png",
             "alt": "house plant"
           }
       ]
