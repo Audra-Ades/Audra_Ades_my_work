@@ -266,19 +266,19 @@
       "name" : "Roger",
       "images" : [
           {
-            "src": "./images/Roger/roger4.png",
+            "src": "./images/roger/roger4.png",
             "alt": "house plant"
           },
           {
-            "src": "./images/Roger/roger3.png",
+            "src": "./images/roger/roger3.png",
             "alt": "house plant"
           },
           {
-            "src": "./images/Roger/roger2.png",
+            "src": "./images/roger/roger2.png",
             "alt": "house plant"
           },
           {
-            "src": "./images/Roger/roger1.png",
+            "src": "./images/roger/roger1.png",
             "alt": "house plant"
           }
       ]
