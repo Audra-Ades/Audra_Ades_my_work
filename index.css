@@ -38,6 +38,7 @@
     color: #56698d;
     display: flex;
     justify-content: center;
+    padding: 70px ;
    
   
   }
@@ -179,13 +180,12 @@
     font-style: normal;
   }
   .row{
-    display: flex;
+   display: flex;
     bottom: 50px;
    padding-inline: 15px;
    align-items: center;
    justify-content: center;
    padding-bottom: 30px;
-  
    position: relative;
    top: 30px;
    bottom: 10px;
@@ -232,6 +232,7 @@
   .link2{
     text-decoration: none;
     color: #56698d;
+   
   }
   .link3{
     text-decoration: none;
@@ -327,12 +328,7 @@
   --dark: var(--hue) 70% 3%;
 }
 
-body {
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  background: linear-gradient(hsl(var(--text)), hsl(var(--dark)));
-}
+
 
 .container {
   max-width: 1200px;

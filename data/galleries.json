@@ -4,6 +4,10 @@
       "name" : "Food",
       "images" : [
         {
+          "src": "./images/PEY/food7.png",
+          "alt": "blueberries"
+      }, 
+        {
             "src": "./images/PEY/food2.png",
             "alt": "poster"
           },
@@ -26,11 +30,8 @@
           {
             "src": "./images/PEY/food6.png",
             "alt": "avacado"
-          },
-          {
-            "src": "./images/PEY/food7.png",
-            "alt": "blueberries"
-        } 
+          }
+         
       ]
     },
     {
@@ -63,28 +64,89 @@
       ]
     },
     {
-      "name" : "Plants",
+      "name" : "brunch",
       "images" : [
           {
-            "src": "./images/plants/plant-1.jpg",
+            "src": "./images/brunch/brunch2.png",
             "alt": "house plant"
           },
           {
-            "src": "./images/plants/plant-2.jpg",
+            "src": "./images/brunch/brunch1.png",
+            "alt": "house plant"
+          }
+      ]
+    },
+    {
+      "name" : "Hulla",
+      "images" : [
+          {
+            "src": "./images/hb/hb3.png",
             "alt": "house plant"
           },
           {
-            "src": "./images/plants/plant-3.jpg",
+            "src": "./images/hb/hb1.png",
             "alt": "house plant"
           },
           {
-            "src": "./images/plants/plant-4.jpg",
+            "src": "./images/hb/hb2.png",
+            "alt": "house plant"
+          }
+      ]
+    },
+    {
+      "name" : "PS",
+      "images" : [
+          {
+            "src": "./images/PS/ps2.png",
             "alt": "house plant"
           },
           {
-            "src": "./images/plants/plant-5.jpg",
+            "src": "./images/PS/ps4.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/PS/ps1.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/PS/ps3.png",
+            "alt": "house plant"
+          }
+      ]
+    },
+    {
+      "name" : "MS",
+      "images" : [
+          {
+            "src": "./images/MS/MS1.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/MS/MS2.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/MS/MS3.png",
+            "alt": "house plant"
+          }
+      ]
+    },
+    {
+      "name" : "nadia",
+      "images" : [
+          {
+            "src": "./images/nadia/n1_sm.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/nadia/n3.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/nadia/n2.png",
             "alt": "house plant"
           }
       ]
     }
+    
   ]
