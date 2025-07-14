@@ -149,6 +149,63 @@
       ]
     },
     {
+      "name" : "Sale",
+      "images" : [
+          {
+            "src": "./images/sales/sale3.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/sales/sale4.png",
+            "alt": "house plant"
+          }, 
+          {
+            "src": "./images/sales/sale6.png",
+            "alt": "house plant"
+          }, 
+          {
+            "src": "./images/sales/sale7.png",
+            "alt": "house plant"
+          },
+           {
+            "src": "./images/sales/sale8.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/sales/sale9.png",
+            "alt": "house plant"
+          }, 
+          {
+            "src": "./images/sales/sale5.png",
+            "alt": "house plant"
+          }
+          
+      ]
+    },
+    {
+      "name" : "horizon",
+      "images" : [
+          {
+            "src": "./images/horizon/horizon3t.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/horizon/horizon4.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/horizon/horizon2.png",
+            "alt": "house plant"
+          },
+          {
+            "src": "./images/horizon/horizon1.png",
+            "alt": "house plant"
+          }
+          
+          
+      ]
+    },
+    {
       "name" : "nadia",
       "images" : [
           {
