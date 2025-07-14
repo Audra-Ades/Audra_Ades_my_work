@@ -115,18 +115,18 @@
       ]
     },
     {
-      "name" : "MS",
+      "name" : "Motor",
       "images" : [
           {
-            "src": "./images/MS/ms1.png",
+            "src": "./images/motor/ms1.png",
             "alt": "house plant"
           },
           {
-            "src": "./images/MS/ms2.png",
+            "src": "./images/motor/ms2.png",
             "alt": "house plant"
           },
           {
-            "src": "./images/MS/Ms3.png",
+            "src": "./images/motor/Ms3.png",
             "alt": "house plant"
           }
       ]
